@@ -1,0 +1,14 @@
+{
+  "name": "video-editor",
+  "version": "0.0.1",
+  "description": "web video editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanjeev v",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.4.1"
+  }
+}

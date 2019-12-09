@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h3>Upload a video to transcode to mp4 (x264) and play!</h3>
+    <video id="output-video" controls></video><br/>
+    <input type="file" id="uploader" name="select your video">
+    <p id="message" />
+    <div id="cut-box">
+        <input id="start" placeholder="start">
+        <input id="end" placeholder="end">
+    </div>
+    <br>
+    <button id="cut-btn">cut</button>
+
+    <script src="node_modules/@ffmpeg/ffmpeg/dist/ffmpeg.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
